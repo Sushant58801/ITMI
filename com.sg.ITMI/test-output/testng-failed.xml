@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Inventory(failed)" parallel="none">
+    <classes>
+      <class name="test.InventoryTest">
+        <methods>
+          <include name="getReporter"/>
+          <include name="CloseInventory"/>
+          <include name="closeextend"/>
+        </methods>
+      </class> <!-- test.InventoryTest -->
+    </classes>
+  </test> <!-- Inventory(failed) -->
+</suite> <!-- Failed suite [Suite] -->

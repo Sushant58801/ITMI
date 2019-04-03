@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="139461" started-at="2019-02-25T09:45:39Z" finished-at="2019-02-25T09:47:59Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="6316" started-at="2019-02-25T09:45:39Z" finished-at="2019-02-25T09:45:46Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="checkloginpage()[pri:1, instance:test.LoginTest@d5b810e]" name="checkloginpage" duration-ms="982" started-at="2019-02-25T15:15:39Z" finished-at="2019-02-25T15:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginpage -->
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:test.LoginTest@d5b810e]" name="invalidLogin" duration-ms="1706" started-at="2019-02-25T15:15:40Z" finished-at="2019-02-25T15:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="AdminvalidLogin()[pri:3, instance:test.LoginTest@d5b810e]" name="AdminvalidLogin" duration-ms="3611" started-at="2019-02-25T15:15:42Z" finished-at="2019-02-25T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminvalidLogin -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Login -->
+    <test name="Inventory" duration-ms="60181" started-at="2019-02-25T09:45:46Z" finished-at="2019-02-25T09:46:46Z">
+      <class name="test.InventoryTest">
+        <test-method status="PASS" signature="CreateLocation()[pri:1, instance:test.InventoryTest@290222c1]" name="CreateLocation" duration-ms="5515" started-at="2019-02-25T15:15:46Z" finished-at="2019-02-25T15:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLocation -->
+        <test-method status="PASS" signature="SearchLocation()[pri:2, instance:test.InventoryTest@290222c1]" name="SearchLocation" duration-ms="2442" started-at="2019-02-25T15:15:51Z" finished-at="2019-02-25T15:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchLocation -->
+        <test-method status="PASS" signature="ModifyLocation()[pri:3, instance:test.InventoryTest@290222c1]" name="ModifyLocation" duration-ms="2226" started-at="2019-02-25T15:15:54Z" finished-at="2019-02-25T15:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyLocation -->
+        <test-method status="PASS" signature="CreateInventoryButton()[pri:4, instance:test.InventoryTest@290222c1]" name="CreateInventoryButton" duration-ms="4859" started-at="2019-02-25T15:15:56Z" finished-at="2019-02-25T15:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateInventoryButton -->
+        <test-method status="PASS" signature="Addmaterialbutton()[pri:5, instance:test.InventoryTest@290222c1]" name="Addmaterialbutton" duration-ms="2992" started-at="2019-02-25T15:16:01Z" finished-at="2019-02-25T15:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addmaterialbutton -->
+        <test-method status="PASS" signature="PrinterMaterial()[pri:6, instance:test.InventoryTest@290222c1]" name="PrinterMaterial" duration-ms="5698" started-at="2019-02-25T15:16:04Z" finished-at="2019-02-25T15:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrinterMaterial -->
+        <test-method status="PASS" signature="ComputerMaterial()[pri:7, instance:test.InventoryTest@290222c1]" name="ComputerMaterial" duration-ms="6022" started-at="2019-02-25T15:16:09Z" finished-at="2019-02-25T15:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComputerMaterial -->
+        <test-method status="PASS" signature="TempSaveInventory()[pri:8, instance:test.InventoryTest@290222c1]" name="TempSaveInventory" duration-ms="27126" started-at="2019-02-25T15:16:15Z" finished-at="2019-02-25T15:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TempSaveInventory -->
+        <test-method status="PASS" signature="CloseInventory()[pri:9, instance:test.InventoryTest@290222c1]" name="CloseInventory" duration-ms="3289" started-at="2019-02-25T15:16:43Z" finished-at="2019-02-25T15:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseInventory -->
+      </class> <!-- test.InventoryTest -->
+    </test> <!-- Inventory -->
+    <test name="User" duration-ms="25037" started-at="2019-02-25T09:46:46Z" finished-at="2019-02-25T09:47:11Z">
+      <class name="test.UserTest">
+        <test-method status="PASS" signature="CreateNewUser()[pri:1, instance:test.UserTest@201a4587]" name="CreateNewUser" duration-ms="9411" started-at="2019-02-25T15:16:46Z" finished-at="2019-02-25T15:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUser -->
+        <test-method status="PASS" signature="SearchUser()[pri:2, instance:test.UserTest@201a4587]" name="SearchUser" duration-ms="3433" started-at="2019-02-25T15:16:55Z" finished-at="2019-02-25T15:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchUser -->
+        <test-method status="PASS" signature="EditNewUser()[pri:3, instance:test.UserTest@201a4587]" name="EditNewUser" duration-ms="12189" started-at="2019-02-25T15:16:59Z" finished-at="2019-02-25T15:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditNewUser -->
+      </class> <!-- test.UserTest -->
+    </test> <!-- User -->
+    <test name="importexport" duration-ms="47864" started-at="2019-02-25T09:47:11Z" finished-at="2019-02-25T09:47:59Z">
+      <class name="test.ImportExportTest">
+        <test-method status="PASS" signature="getReporter()[pri:0, instance:test.ImportExportTest@2dc54ad4]" name="getReporter" is-config="true" duration-ms="159" started-at="2019-02-25T15:15:39Z" finished-at="2019-02-25T15:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReporter -->
+        <test-method status="PASS" signature="AgencyImport()[pri:1, instance:test.ImportExportTest@2dc54ad4]" name="AgencyImport" duration-ms="3890" started-at="2019-02-25T15:17:11Z" finished-at="2019-02-25T15:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgencyImport -->
+        <test-method status="PASS" signature="AssetImport()[pri:2, instance:test.ImportExportTest@2dc54ad4]" name="AssetImport" duration-ms="2991" started-at="2019-02-25T15:17:15Z" finished-at="2019-02-25T15:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssetImport -->
+        <test-method status="PASS" signature="LocationImport()[pri:3, instance:test.ImportExportTest@2dc54ad4]" name="LocationImport" duration-ms="3167" started-at="2019-02-25T15:17:18Z" finished-at="2019-02-25T15:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocationImport -->
+        <test-method status="PASS" signature="AssetLocalization()[pri:5, instance:test.ImportExportTest@2dc54ad4]" name="AssetLocalization" duration-ms="3314" started-at="2019-02-25T15:17:21Z" finished-at="2019-02-25T15:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssetLocalization -->
+        <test-method status="PASS" signature="Assetperdus()[pri:6, instance:test.ImportExportTest@2dc54ad4]" name="Assetperdus" duration-ms="22119" started-at="2019-02-25T15:17:24Z" finished-at="2019-02-25T15:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assetperdus -->
+        <test-method status="PASS" signature="ListInventoriesDetails()[pri:7, instance:test.ImportExportTest@2dc54ad4]" name="ListInventoriesDetails" duration-ms="9364" started-at="2019-02-25T15:17:46Z" finished-at="2019-02-25T15:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListInventoriesDetails -->
+        <test-method status="PASS" signature="ListInventorieStatus()[pri:8, instance:test.ImportExportTest@2dc54ad4]" name="ListInventorieStatus" duration-ms="3013" started-at="2019-02-25T15:17:56Z" finished-at="2019-02-25T15:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListInventorieStatus -->
+        <test-method status="PASS" signature="closeextend()[pri:0, instance:test.ImportExportTest@2dc54ad4]" name="closeextend" is-config="true" duration-ms="468" started-at="2019-02-25T15:17:59Z" finished-at="2019-02-25T15:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeextend -->
+      </class> <!-- test.ImportExportTest -->
+    </test> <!-- importexport -->
+  </suite> <!-- Suite -->
+</testng-results>
